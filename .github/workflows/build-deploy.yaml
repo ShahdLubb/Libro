@@ -141,6 +141,7 @@ jobs:
       env:
         ASPNETCORE_ENVIRONMENT: Development
         ConnectionStrings__MyDbConnection: ${{ env.SQL_CONNECTION_STRING }}
+      working-directory: Web
  
 
     - name: Swap to production slot
