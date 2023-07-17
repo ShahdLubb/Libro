@@ -48,7 +48,7 @@ jobs:
       with:
         context: ./Web/
         push: true
-        tags: ${{ env.ACR_LOGIN_SERVER }}/${{ env.CONTAINER_IMAGE_NAME }}:${{ github.sha }}
+        tags: ${{ env.ACR_LOGIN_SERVER }}/${{ env.CONTAINER_IMAGE_NAME }}:${{ github.sha }}.toLowerCase()
         file: ./Web/Dockerfile
 
 
