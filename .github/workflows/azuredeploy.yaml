@@ -8,7 +8,7 @@ env:
   WEB_APP_NAME: LibroWebAPI
   ACR_NAME: LibroContainer
   CONTAINER_IMAGE_NAME: LibroContainerImage
-  SQL_SERVER_NAME: LibroServerDB1
+  SQL_SERVER_NAME: libro-server-db1
   SQL_SERVER_ADMIN_LOGIN: dbadminlogin 
   SQL_SERVER_ADMIN_PASSWORD: ${{ secrets.SQL_SERVER_ADMIN_PASSWORD }}  
   SQL_DB_NAME: Libro
