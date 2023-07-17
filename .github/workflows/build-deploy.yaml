@@ -11,11 +11,11 @@ on:
 env:
   AZURE_RESOURCE_GROUP: Libro
   WEB_APP_NAME: LibroWebAPI
-  ACR_NAME: LibroWebAPI-Container
-  CONTAINER_IMAGE_NAME: LibroWebAPI-Container-Image
-  SQL_SERVER_NAME: LibroServer
+  ACR_NAME: LibroContainer
+  CONTAINER_IMAGE_NAME: LibroContainerImage
+  SQL_SERVER_NAME: libro-server-db1
   SQL_CONNECTION_STRING: ${{ secrets.SQL_CONNECTION_STRING }}  
-  ACR_LOGIN_SERVER: LibroWebAPI-Container.azurecr.io 
+  ACR_LOGIN_SERVER: LibroContainer.azurecr.io 
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }} 
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }} 
   
