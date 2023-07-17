@@ -451,7 +451,6 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-*.csproj
 *.sln
 
 # Chutzpah Test files
