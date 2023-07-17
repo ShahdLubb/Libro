@@ -15,7 +15,7 @@ env:
   CONTAINER_IMAGE_NAME: LibroContainerImage
   SQL_SERVER_NAME: libro-server-db1
   SQL_CONNECTION_STRING: ${{ secrets.SQL_CONNECTION_STRING }}  
-  ACR_LOGIN_SERVER: LibroContainer.azurecr.io 
+  ACR_LOGIN_SERVER: librocontainer.azurecr.io
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }} 
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }} 
   
