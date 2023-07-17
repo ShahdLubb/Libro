@@ -7,7 +7,7 @@ env:
   AZURE_RESOURCE_GROUP: Libro
   WEB_APP_NAME: LibroWebAPI
   ACR_NAME: LibroContainer
-  CONTAINER_IMAGE_NAME: LibroContainerImage
+  CONTAINER_IMAGE_NAME: librocontainerimage
   SQL_SERVER_NAME: libro-server-db1
   SQL_SERVER_ADMIN_LOGIN: dbadminlogin 
   SQL_SERVER_ADMIN_PASSWORD: ${{ secrets.SQL_SERVER_ADMIN_PASSWORD }}  
