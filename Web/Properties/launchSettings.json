@@ -27,11 +27,7 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
-      "useSSL": true,
-      "environmentVariables": {
-        "VaultUri": "https://librodbconnection.vault.azure.net/",
-        "AZURE_USERNAME": "s12028665@stu.najah.edu"
-      }
+      "useSSL": true
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json",
